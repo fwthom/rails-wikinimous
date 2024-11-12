@@ -105,6 +105,8 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.0)
+    faker (3.5.1)
+      i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -157,6 +159,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+    ostruct (0.6.1)
     psych (5.2.0)
       stringio
     public_suffix (6.0.1)
@@ -274,8 +277,10 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  faker
   importmap-rails
   jbuilder
+  ostruct
   puma (>= 5.0)
   rails (~> 7.1.5)
   selenium-webdriver
